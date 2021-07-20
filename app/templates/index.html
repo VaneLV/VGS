@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Please, enter your payment information</h1>
+<form method="post" action="/add_message">
+    <input type="text" name="Card" placeholder="Card">
+	<input type="text" name="CVV" placeholder="CVV">
+	<input type="text" name="Expiration" placeholder="Expiration Date">
+    <button type="submit">Redact data</button>
+</form>
+
+{% endblock %}
